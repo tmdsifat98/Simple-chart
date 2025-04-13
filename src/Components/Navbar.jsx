@@ -14,10 +14,10 @@ const navLinks = navItems.map((navItem, index) => (
   <li key={index}><a href={navItem.path}>{navItem.name}</a></li>
 ));
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false); 
   return (
-    <nav>
-      <div className="flex justify-between items-center shadow-2xl shadow-gray-700 p-3">
+    <nav className="fixed top-0 w-11/12 z-50 mx-auto">
+      <div className="flex justify-between items-center shadow-lg shadow-gray-500 p-3">
         <h1 className="text-xl font-semibold ">Sifat</h1>
         <ul className="hidden lg:flex items-center gap-6">{navLinks}</ul>
 

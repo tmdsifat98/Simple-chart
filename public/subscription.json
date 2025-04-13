@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Premium",
+    "price": 9.99,
+    "duration": "1 Month",
+    "popular": false,
+    "features": [
+      "Ad-free experience",
+      "Access to premium content",
+      "Basic customer support",
+      "Download limited content",
+      "Standard video quality (720p)",
+      "Access on 1 device"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard Premium",
+    "price": 24.99,
+    
+    "duration": "3 Months",
+    "popular": true,
+    "features": [
+      "Ad-free experience",
+      "Early access to new content",
+      "Priority customer support",
+      "Exclusive discounts",
+      "Download unlimited content",
+      "HD video quality (1080p)",
+      "Access on 3 devices",
+      "Offline mode",
+      "Monthly bonus content"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Ultimate Premium",
+    "price": 89.99,
+    "duration": "1 Year",
+    "popular": false,
+    "features": [
+      "All premium features unlocked",
+      "Dedicated support",
+      "Free merchandise",
+      "Invitations to VIP events",
+      "4K Ultra HD streaming",
+      "Access on unlimited devices",
+      "Family sharing (up to 5 accounts)",
+      "Priority for beta features",
+      "Annual giveaway entries",
+      "Extended download access"
+    ]
+  }
+]

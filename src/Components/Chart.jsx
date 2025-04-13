@@ -20,7 +20,7 @@ students.map((student) => {
 
 const Chart = () => {
   return (
-    <div className="mt-10 mx-auto">
+    <div className="mt-40 mx-auto -z-30 ">
       <LineChart height={300} width={700} data={students}>
         <Line type={"monotone"} dataKey="avg" stroke="black" />
         <XAxis dataKey="name" stroke="black"></XAxis>
